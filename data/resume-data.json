@@ -1,0 +1,78 @@
+{
+    "profile":{
+        "firstName": "Brian",
+        "lastName": "Schwartz",
+        "location": {
+            "street": "108 Park Place #3",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zipcode": "11217"
+        },
+        "phone": "630.818.7548",
+        "email": "brianrschwartz@gmail.com",
+        "websites": ["https://brian.codes","http://brschwartz.com"],
+        "profiles": [{
+            "network": "LinkedIn",
+            "username": "brianrschwartz",
+            "url": "https://www.linkedin.com/in/brianrschwartz/"
+          },
+          {
+            "network": "Twitter",
+            "username": "brschwar",
+            "url": "http://twitter.com/brschwar"
+          },
+          {
+            "network": "GitHub",
+            "username": "brschwar",
+            "url": "http://github.com/brschwar"
+          }
+        ]
+    },
+    "statement": "I'm a Technical Manager with experience in website design, development and deployment. My experience in all aspects of the development lifecycle gives me the ability to manage multi-disciplinary projects and to tackle complex challenges.",
+    "experience": [
+        {
+            "company": "Code and Theory",
+            "website": "https://www.codeandtheory.com",
+            "": {
+                "title": "Technical Director",
+                "date-started": "01 August 2013",
+                "date-ended": "01 August 2019",
+                "location": "Greater New York City Area",
+                "description": "",
+                "roles": [
+                    "Provided agile, technical direction for the development, design, and systems integration for a wide variety of client engagements starting with the definition phase and continuing through implementation and final delivery", 
+                    "Responsible for web, mobile and native applications for several clients such as New York Life, CNBC, Maybelline, Tegna Digital, Inc., and Google", 
+                    "Wrote technical documentation, performed Code Reviews, recommended best practices, organized projects, reviewed creative strategy and managed tasks/boards", 
+                    "Managed multiple technical teams across projects as well as managed the development of senior, mid and junior level developers (2-4 direct reports), including offshore teams from Manila, Philippines","Performed SEO, Accessibility and performance audits then recommend and helped to implement improvements to increase rankings in Google News, Apple News and Google/Bing SERPs."        
+                ]
+            }
+        }
+    ],
+    "skills": {
+        "frontend-languages": [ "HTML", "Javascript", "CSS (Sass)"],
+        "frontend-frameworks": [ "React", "React Native", "Angular", "Ember", "jQuery" ],
+        "backend-languages": [ "Java", "PHP", "SQL" ],
+        "backend-frameworks": [ "GraphQL" ],
+        "backend-cms": [ "Wordpress", "Adobe Experience Manager (AEM)", "Sitecore" ],
+        "devops": [ "CLI" ],
+        "other": {
+            "Task Runners": ["Webpack"], 
+            "SEO Tools": ["Screaming Frog SEO Spider"], 
+            "Cloud Solutions": ["AWS"],
+            "Analytics":["Google Analytics, Adobe Analytics"],
+            "eCommerce solutions":[], 
+            "Crash Reporting and Server Monitoring":[]
+        }
+    },
+    "education": [
+        {
+            "school": "University of Illinois",
+            "type": "degree"
+        },
+        {
+            "school": "NYU",
+            "type": "certificate"
+        }
+    ]
+}
+
