@@ -85,7 +85,10 @@ main {
   min-height: 250px;
   background-color: rgba(33, 33, 33, .3);
   background: rgb(2,0,36);
-  background: linear-gradient(rgba(33, 33, 33, .3) 0%, rgba(2,0,36,1) 100%);
+  background:
+  radial-gradient(ellipse at 20% 65%, #60d0ff 0%, transparent 40%),
+  radial-gradient(ellipse at 60% 40%, #0047cc 0%, transparent 50%),
+  linear-gradient(180deg, #000010 0%, #001040 40%, #002080 70%, #003090 90%, #003090 100%);
   color:white;
   align-items: center;
 
@@ -104,16 +107,16 @@ main {
 .hero:after {
   content: "";
   display: block;
-  height: 30px;
+  height: 15px;
   position: absolute;
   top: 100%;
   left: 0;
   right: 0;
-  background: linear-gradient(-135deg, rgba(2,0,36,1) 15px, transparent 0) 0 15px,
-              linear-gradient( 135deg, rgba(2,0,36,1) 15px, transparent 0) 0 15px;
+  background: linear-gradient(-135deg, #003090 8px, transparent 0) 0 8px,
+              linear-gradient( 135deg, #003090 8px, transparent 0) 0 8px;
   background-position: top left;
   background-repeat: repeat-x;
-  background-size: 30px 30px;
+  background-size: 16px 16px;
 }
 
 .avatar-frame,.avatar-frame img {
